@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travalogue</title>
+</head>
+<body style="background-color: rgb(73, 70, 75);">
+    <header id="header">
+        <div class="container-fluid bgshape">
+            <div class='navbar navbar-expand-md d-flex mynav'>
+                <h1 class="navbar-brand">Travalogue</h1>
+                <ul class="navbar-nav closed" id="menu">
+                    <li class="nav-item"><a id="in" onclick="openIt('SignIn')" class="nav-link navtab popup" href="#">SignIn</a></li>
+                    <li class="nav-item"><a id="up" onclick="openIt('SignUp')" class="nav-link navtab popup" href="#">SignUp</a></li>
+
+                    <li class="nav-item"><a id="out" class="nav-link navtab popdown"
+                        onclick=loggedIn() href="#">Logout</a></li>
+
+                    <li class="nav-item"><a class="nav-link navtab" href="#">About</a></li>
+                </ul>
+            </div>
+        </div>  
+        <h1 class="logo">T</h1> 
+        <button class="toggler" onclick=menutoggle() ><i class="material-icons" id="toggle">menu</i></button>
+    </header>    
+    <main>
+        <div class="container-fluid" id="showcase">    
+            <h3 class="quote" id="quote" style="color: white;">Travel is the only thing you buy that makes you richer</h3>
+            </div>  
+        </div>
+        <div class="row container-fluid">
+            <div class="col-12 col-lg-7 column-1">
+                <h2> Wanderlust</h2>
+                <p>Travel……. The best part of traveling is never certain and different people have different opinions about that. Done feel that there journey to a new different place is quite an experience, some at that the best thing is exploring the places some say that adventures are there best part of traveling. They are all true about it in their point of view.<br><br>Travelling is like an escape from your normal mundane life. The kind of experiences and memories that we make on this journey is just unforgettable. We end up meeting different people, some from different cities or states even countries for that matter, but one thing which unites us is our sheer love for travelling.</p>
+            </div>
+            <div class=" col-12 col-lg-4 column-2"></div>    
+        </div>
+        <div class="row container-fluid justify-content-around row1">
+            <div class="col-12 col-lg-8 state">
+                <h2>Kerala</h2>
+                <p>Known as the “God’s Own Country”, Kerala is surely one of the most beautiful places in India. Kerala or Keralam is a Malayalee word made up of two parts; ‘Kera’ meaning coconut and ‘alam’ meaning land. The land of coconut trees is a destination that has something for every kind of traveller. Whether you want to sail the glistening backwaters or lose yourself in the mystical coastal greenery, Kerala is an ultimate tourist destination to experience bliss and serenity.Meandering rivers and Amazing natural scenarios. These colors are made Kerala as a land of beauty and paradise on earth. Kerala is also famous for its Ayurvedic treatments, high mountains, gorges and deep-cut valley, lush and evergreen rain forest and coconuts water and oil and foods items.</p>                
+            </div>
+            <div class="col-12 col-lg-3 placelist container-fluid">
+                <div class="card">
+                    <img class="card-img-top" src="images/kerala1.jpg" alt="card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Kuttanad</h4>
+                        <p class="card-text">There is the whole of Kerala in one side, and then there is this heavenly tourist destination called Alappuzha or Alleppey! Esteemed as the ‘Backwater Capital of India’ or the ‘Venice of the East’, Alleppey is known for its silent backwaters and bountiful beauty!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/kerala2.jpg" alt="card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Munnar</h4>
+                        <p class="card-text">Yet another gorgeous hill station in the lap of the fascinating Western Ghats, Munnar needs no introduction. Rising 1,600m above the sea level, a vacation in the beguiling locales of this hilly retreat is all about the lofty clouds, picturesque mountains, rolling hills, and a soothing ambience.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/kovalam.jpg" alt="card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Kovalam</h4>
+                        <p class="card-text">Quite popular for its calm and scenic beaches, the town of Kovalam, 16 Km away from Kerala’s capital Thiruvanthapuram has an array of other tourist attractions worth a visit.  While the different beaches are a definite highlight of this place, travelling along the coast or away from it, travellers can explore picturesque backwaters, rivers and dams, and visit places of worship as well.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/vagamon.jpg" alt="card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Vagamon</h4>
+                        <p class="card-text">If you are looking for an offbeat, yet captivating holiday experience in Kerala, you must plan your vacation in Vagamon. One of the most scenic hill stations and least explored tourist places in Kerala, this retreat in the Idukki district is known for its salubrious beauty, pleasant climate, and much more.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/nelliyampathy.jpg" alt="card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Nelliampathy</h4>
+                        <p class="card-text">If Kerala is called the ‘God’s Own Country’, Nelliampathy (or Nelliampathi) is fondly called the ‘God’s Own Village’! Located around 60km from Palakkad, this quaint hamlet is one of the least explored and equally stunning hill stations in Kerala.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popupbg popdown" id="popupbox">
+            <div class="form">
+                <div class="modalhead ">   
+                    <button class="btnclose" onclick="closeIt('popupbox')" ><i class="material-icons" id="">close</i></button>
+                    <h4>SignIn</h4>
+                </div>            
+                <input type="email" class="form-control forminput" placeholder="Email" id='username'>
+                <input type="password" class="form-control forminput" placeholder="Password" id="pass">
+                <button type="submit" onclick=validate() class="btn btn-primary button" value="SignIn"></button>
+            </div>
+        </div>
+        <div class="popupbg popdown" id="alerts">
+            <div class="alertbox"> 
+                <h4></h4>
+                <button type="button" class="btn okey" value="Ok" onclick=okey() >OK</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer" class="row">
+            <div class="col-12 col-lg-4 flogo"><h1>T</h1></div>
+            <div class="col-12 col-lg-4 connect">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="#" class="icon" ><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="icon"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" class="icon"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="icon"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3 navigate" >
+                <h3>Navigate</h3>
+                <ul>
+                    <li><a href="#" class="flink">Licenses</a></li>
+                    <li><a href="#" class="flink">Privacy Policy</a></li>
+                    <li><a href="#" class="flink">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
