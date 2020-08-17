@@ -341,6 +341,48 @@ html,body{
     }
     
 }
+@media screen and (max-width: 992px){
+    .column-1{
+        margin: 20px 0px;
+        text-align: center;
+        text-indent: 0px;    
+    }
+    .column-2{
+        margin: 30px 0px;
+        padding-top: 90%;
+        
+    }
+    .placelist{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        overflow-x: scroll;
+        overflow-y:hidden;
+        height: auto;
+        
+    }
+    .card{
+        min-width: 50%;
+        margin-right: 1mm;    
+    }
+    .row1{
+        margin-top: -20px;
+    }
+    .state{
+        padding: 30px 2px;
+    }
+    #footer{
+        height: 15cm;
+    }
+    .form{
+        width: 60%;
+        height: 40vh;
+    }
+    .alertbox{
+        width: 60%;
+        height: 40vh;
+    }
+    
+}
 
 @media screen and (max-width: 767px){
     
@@ -383,53 +425,36 @@ html,body{
     }
     .alertbox{
         width: 60%;
-        height: 25vh;
+        height: 35vh;
+    }
+    .form{
+        width: 70%;
+        height: 40vh;
+    }
+    .card{
+        min-width: 65%;
+        margin-right: 1mm;    
     }
 }
 @media screen and (max-width: 450px){
     .alertbox{
         width: 90%;
-        height: 25vh;
-    }
-}
-@media screen and (max-width: 992px){
-    .column-1{
-        margin: 20px 0px;
-        text-align: center;
-        text-indent: 0px;
-       
-        
-    }
-    .column-2{
-        margin: 30px 0px;
-        padding-top: 90%;
-        
-    }
-    .placelist{
-        flex-wrap: nowrap;
-        flex-direction: row;
-        overflow-x: scroll;
-        overflow-y:hidden;
-        height: auto;
-        
-    }
-    .card{
-        min-width: 80%;
-        margin-right: 1mm;    
-    }
-    .row1{
-        margin-top: -20px;
-    }
-    .state{
-        padding: 30px 2px;
-    }
-    #footer{
-        height: 15cm;
+        height: 35vh;
     }
     .form{
-        width: 60%;
-        height: 17vh;
+        width: 90%;
+        height: 40vh;
     }
-    
+    .card{
+        min-width: 90%;
+        margin-right: 1mm;    
+    }
 }
+@media screen and (max-width: 300px){
+    .card{
+        min-width: 96%;
+        margin-right: 1mm;    
+    }
+}
+
 
