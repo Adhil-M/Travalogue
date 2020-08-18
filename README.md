@@ -1,2 +1,2 @@
 # Travalogue
-open :https://adhil-m.github.io/Travalogue/
+open :https://travalogue.netlify.app/
